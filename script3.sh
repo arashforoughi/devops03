@@ -6,7 +6,6 @@ do
 done
 
 MYOS=`echo $MYOS | tr -d [:digit:] | tr -d [:space:] | tr [:upper:] [:lower:]`
-sleep 5
 
 if [ $MYOS = "linux" ] || [ $MYOS = "unix" ]
 then
